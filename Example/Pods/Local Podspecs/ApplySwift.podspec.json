@@ -1,0 +1,22 @@
+{
+  "name": "ApplySwift",
+  "version": "0.1.0",
+  "summary": "A short description of ApplySwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/churabou/ApplySwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "churabou": "ginga7888@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/churabou/ApplySwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ApplySwift/Classes/**/*"
+}

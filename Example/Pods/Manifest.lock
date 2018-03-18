@@ -1,0 +1,16 @@
+PODS:
+  - ApplySwift (0.1.0)
+
+DEPENDENCIES:
+  - ApplySwift (from `../`)
+
+EXTERNAL SOURCES:
+  ApplySwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ApplySwift: 61709ddc0f625572c7bb7ec3bb439de7d79f3a65
+
+PODFILE CHECKSUM: fe5820a9742af2b7a1934c042d4785fb6ea45a44
+
+COCOAPODS: 1.2.1.beta.1
