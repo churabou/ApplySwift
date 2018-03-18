@@ -14,8 +14,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let v = UIView().appl
+        let v = UIView()
+        v.apply { $0
+            .origin(x: 0, y: view.frame.height-100)
+            .size(width: view.frame.width, height: 100)
+            .backgroundColor(.red)
+            .addParent(view)
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 

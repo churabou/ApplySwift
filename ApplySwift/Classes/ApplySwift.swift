@@ -6,3 +6,23 @@
 //
 
 import Foundation
+
+public protocol ApplySwift {}
+
+public extension ApplySwift {
+    
+    public func apply(_ closure: (Applicable<Self>)->Applicable<Self>) {
+        closure(Applicable(self)).escape()
+    }
+}
+
+public struct Applicable<T> {
+    
+    public var base: T
+    
+    init(_ base: T) {
+        self.base = base
+    }
+    
+    fileprivate func escape() {}
+}
