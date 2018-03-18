@@ -16,6 +16,11 @@ public extension Applicable where T: UILabel {
         base.textAlignment = alignment
         return self
     }
+    
+    public func font(_ font: UIFont) -> Applicable<T> {
+        base.font = font
+        return self
+    }
 }
 
 

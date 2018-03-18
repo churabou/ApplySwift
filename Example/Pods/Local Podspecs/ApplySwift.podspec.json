@@ -2,14 +2,14 @@
   "name": "ApplySwift",
   "version": "0.1.0",
   "summary": "chainable initializer using apply like kotolin",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "ApplySwift is chainable initializer using apply like kotolin.\nUIKit extension",
   "homepage": "https://github.com/churabou/ApplySwift",
   "license": "MIT",
   "authors": {
     "churabou": "ginga7888@gmail.com"
   },
   "source": {
-    "git": "https://github.com/churabou/ApplySwift",
+    "git": "https://github.com/churabou/ApplySwift.git",
     "tag": "0.1.0"
   },
   "platforms": {
