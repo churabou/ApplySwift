@@ -19,7 +19,20 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'ApplySwift'
 ```
+## Usage
 
+```swift
+        let b = UIButton()
+        b.apply { $0
+            .origin(x: 100, y: 100)
+            .size(width: 100, height: 100)
+            .backgroundColor(.red)
+            .title("Apply Swift")
+            .cornerRadius(50)
+            .clipsToBounds()
+            .addParent(view)
+        }
+```
 ## Author
 
 churabou, ginga7888@gmail.com
