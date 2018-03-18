@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import ApplySwift
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let v = UIView().appl
         // Do any additional setup after loading the view, typically from a nib.
     }
 

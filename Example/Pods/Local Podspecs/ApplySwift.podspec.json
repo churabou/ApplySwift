@@ -1,18 +1,15 @@
 {
   "name": "ApplySwift",
   "version": "0.1.0",
-  "summary": "A short description of ApplySwift.",
+  "summary": "chainable initializer using apply like kotolin",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/churabou/ApplySwift",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "license": "MIT",
   "authors": {
     "churabou": "ginga7888@gmail.com"
   },
   "source": {
-    "git": "https://github.com/churabou/ApplySwift.git",
+    "git": "https://github.com/churabou/ApplySwift",
     "tag": "0.1.0"
   },
   "platforms": {
